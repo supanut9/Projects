@@ -1,0 +1,16 @@
+***************************************************************************************************
+
+anime_vault
+- Title       => Server Side App with Server Actions, Infinite Scroll & Framer Motion Animations
+- Video       => https://www.youtube.com/watch?v=FKZAXFjxlJI&t=530s
+- Tech Stacks => next<14.0.3>, react<18>, react-dom<18> 
+		 typescript<5>, tailwindcss<3.3.0>
+- Features    => Serve Actions (NextJS: 'use client', 'use server')
+		 Infinite Scrolling (library: react-intersection-observer<9.5.3> => https://www.npmjs.com/package/react-intersection-observer) 
+		 Framer Motion Animations (library: framer-motion<10.16.14> => https://www.framer.com/motion/)
+
+***************************************************************************************************
+
+
+
+
