@@ -11,6 +11,24 @@ anime_vault
 
 ***************************************************************************************************
 
+evently
+- Title
+- Video
+- Tech Stacks 	=> next<14.0.4>, react<18>, react-dom<18>
+- Features	=> shadcn-ui (we can download only needed ui -> more performance)
+		   > npx shadcn-ui@latest init (for nextjs)
+		=> uploadthing (for files uploading)
+			- https://uploadthing.com/
+		   > npm install uploadthing @uploadthing/react
+		=> clerk (authentication and uer management)
+			- https://clerk.com/
+			- https://clerk.com/docs/quickstarts/setup-clerk
+		   > npm install @clerk/nextjs
+			- app/(auth)
+- Tailwind      => flex-1 
+			- If an element has flex: 1 , this means the size of all of the other elements will have the same width 
+			as their content, but the element with flex: 1 will have the remaining full space given to it.
+
 
 
 
