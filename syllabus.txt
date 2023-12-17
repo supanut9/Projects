@@ -25,6 +25,8 @@ evently
 			- https://clerk.com/docs/quickstarts/setup-clerk
 		   > npm install @clerk/nextjs
 			- app/(auth)
+		=> mongodb & mongoose
+		   > npm install mongoose mongodb
 - Tailwind      => flex-1 
 			- If an element has flex: 1 , this means the size of all of the other elements will have the same width 
 			as their content, but the element with flex: 1 will have the remaining full space given to it.
