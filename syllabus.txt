@@ -27,10 +27,13 @@ evently
 			- app/(auth)
 		=> mongodb & mongoose
 		   > npm install mongoose mongodb
+		=> webhook (clerk)
+		   > npm install svix
+		   > npm install query-string
 - Tailwind      => flex-1 
 			- If an element has flex: 1 , this means the size of all of the other elements will have the same width 
 			as their content, but the element with flex: 1 will have the remaining full space given to it.
-
-
+- TypeScript    => type VS interface alias (it very similary (in term of object) only little thing different which are interface can be redeclare)
+			- interface recommend
 
 
