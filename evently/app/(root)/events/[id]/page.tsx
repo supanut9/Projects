@@ -6,7 +6,6 @@ import Image from "next/image";
 const EventDetails = async ({ params: { id } }: SearchParamProps) => {
   const event = await getEventById(id);
 
-  console.log(event);
 
   return (
     <section className="flex justify-center bg-primary-50 bg-dotted-pattern bg-contain">
@@ -24,7 +23,7 @@ const EventDetails = async ({ params: { id } }: SearchParamProps) => {
             <h2 className="h2-bold">{event.title}</h2>
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
               <div className="flex gap-3">
-                <p className="p-bold-20 rounded-full bg-green-500/10 px-5 py-2 text-green-700">
+                <p className="p-bold-20 rounded-full bg-green-500/10 px-5 py-2 text-green-700 self-center ">
                   {event.isFree ? "FREE" : `$${event.price}`}
                 </p>
                 <p className="p-medium-16 rounded-full bg-grey-500/10 px-4 py-2.5 text-grey-500">
@@ -49,6 +48,7 @@ const EventDetails = async ({ params: { id } }: SearchParamProps) => {
                 alt="calendar"
                 width={32}
                 height={32}
+                className="w-auto h-auto"
               />
               <div className="p-medium-16 lg:p-regular-20 flex flex-col flex-wrap items-center">
                 <p>
@@ -68,6 +68,7 @@ const EventDetails = async ({ params: { id } }: SearchParamProps) => {
                 alt="location"
                 width={32}
                 height={32}
+                className="w-auto h-auto"
               />
               <p className="p-medium-16 lg:p-regular-20">{event.location}</p>
             </div>
