@@ -26,6 +26,8 @@ evently
 			- https://clerk.com/docs/quickstarts/setup-clerk
 		   > npm install @clerk/nextjs
 			- app/(auth)
+		   - add {"userId": "{{user.userId}}"} in clerk custom session to send userId through session
+			- Clerk Dashboard / Sessions
 		=> mongodb & mongoose
 		   > npm install mongoose mongodb
 		=> webhook (clerk)
