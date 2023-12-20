@@ -45,5 +45,12 @@ evently
 			as their content, but the element with flex: 1 will have the remaining full space given to it.
 - TypeScript    => type VS interface alias (it very similary (in term of object) only little thing different which are interface can be redeclare)
 			- interface recommend
+		=> different between ? and !
+			- https://stackoverflow.com/questions/63522675/what-is-the-difference-between-and-in-typescript-object-definitions
+
+
+- Disadvantage
+1. Category is universal and people can always create (it gonna be out number and not efficient at all) --> there should be the standard category for the website
+
 
 
